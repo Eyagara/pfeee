@@ -1,0 +1,20 @@
+/* companies.component.scss */
+
+/* Styles pour les badges de statut */
+.badge-active {
+    background-color: #28a745;
+  }
+  
+  .badge-inactive {
+    background-color: #dc3545;
+  }
+  
+  /* Animation pour les boutons d'action */
+  .btn-action {
+    transition: transform 0.2s;
+  }
+  
+  .btn-action:hover {
+    transform: scale(1.1);
+  }
+  

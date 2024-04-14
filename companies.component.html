@@ -1,0 +1,42 @@
+<!-- companies.component.html -->
+
+<div class="container mt-5">
+  <div class="row">
+    <div class="col-md-8">
+      <h2 class="text-primary mb-4">Liste des Entreprises</h2>
+    </div>
+    <div class="col-md-4">
+      <input type="text" class="form-control mb-3" placeholder="Rechercher...">
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-md-12">
+      <div class="table-responsive">
+        <table class="table table-hover">
+          <thead>
+            <tr>
+              <th>Nom</th>
+              <th>Email</th>
+              <th>Statut</th>
+              <th>Actions</th>
+            </tr>
+          </thead>
+          <tbody>
+            <!-- Entreprises affichées ici -->
+            <tr>
+              <td>Entreprise A</td>
+              <td>entrepriseA@example.com</td>
+              <td><span class="badge badge-active">Actif</span></td>
+              <td>
+                <button class="btn btn-sm btn-danger mr-2">Désactiver</button>
+                <button class="btn btn-sm btn-success">Activer</button>
+              </td>
+            </tr>
+            <!-- Autres entreprises -->
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</div>
